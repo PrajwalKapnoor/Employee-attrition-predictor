@@ -1,0 +1,128 @@
+{
+  "constant_cols_dropped": [
+    "EmployeeCount",
+    "StandardHours",
+    "Over18",
+    "EmployeeNumber"
+  ],
+  "binary_cols": [
+    "OverTime",
+    "Gender"
+  ],
+  "binary_encoders": {
+    "OverTime": [
+      "No",
+      "Yes"
+    ],
+    "Gender": [
+      "Female",
+      "Male"
+    ]
+  },
+  "multi_cols": [
+    "BusinessTravel",
+    "Department",
+    "EducationField",
+    "JobRole",
+    "MaritalStatus"
+  ],
+  "multi_col_options": {
+    "BusinessTravel": [
+      "Non-Travel",
+      "Travel_Frequently",
+      "Travel_Rarely"
+    ],
+    "Department": [
+      "Human Resources",
+      "Research & Development",
+      "Sales"
+    ],
+    "EducationField": [
+      "Human Resources",
+      "Life Sciences",
+      "Marketing",
+      "Medical",
+      "Other",
+      "Technical Degree"
+    ],
+    "JobRole": [
+      "Healthcare Representative",
+      "Human Resources",
+      "Laboratory Technician",
+      "Manager",
+      "Manufacturing Director",
+      "Research Director",
+      "Research Scientist",
+      "Sales Executive",
+      "Sales Representative"
+    ],
+    "MaritalStatus": [
+      "Divorced",
+      "Married",
+      "Single"
+    ]
+  },
+  "satisfaction_cols": [
+    "EnvironmentSatisfaction",
+    "JobSatisfaction",
+    "RelationshipSatisfaction",
+    "WorkLifeBalance"
+  ],
+  "job_level_median_income": {
+    "1": 2670.0,
+    "2": 5340.0,
+    "3": 9980.0,
+    "4": 16154.0,
+    "5": 19232.0
+  },
+  "feature_coefficients": {
+    "Age": -0.1748822839630279,
+    "DailyRate": -0.1328770658620291,
+    "DistanceFromHome": 0.3076976621373436,
+    "Education": 0.009171275791909309,
+    "EnvironmentSatisfaction": -0.2813902125307145,
+    "Gender": 0.18395734821262644,
+    "HourlyRate": -0.015687094283766686,
+    "JobInvolvement": -0.3339984203712724,
+    "JobLevel": -0.6673130838029396,
+    "JobSatisfaction": -0.2060695197301594,
+    "MonthlyIncome": 0.6976137630122786,
+    "MonthlyRate": 0.05457922581917661,
+    "NumCompaniesWorked": 0.3856458303276007,
+    "OverTime": 0.799768572914816,
+    "PercentSalaryHike": -0.1698870133683025,
+    "PerformanceRating": 0.06457432246385242,
+    "RelationshipSatisfaction": -0.051156890418489594,
+    "StockOptionLevel": -0.13566124960459575,
+    "TotalWorkingYears": -0.6659506976248959,
+    "TrainingTimesLastYear": -0.23634122074056524,
+    "WorkLifeBalance": -0.1023339830745801,
+    "YearsAtCompany": 0.5776965456212331,
+    "YearsInCurrentRole": 0.07837183316899754,
+    "YearsSinceLastPromotion": 0.46034509586449107,
+    "YearsWithCurrManager": -0.4565028136946194,
+    "BusinessTravel_Travel_Frequently": 0.6876060528150076,
+    "BusinessTravel_Travel_Rarely": 0.46478127691135857,
+    "Department_Research & Development": 0.39319636532564634,
+    "Department_Sales": 0.3627969587009881,
+    "EducationField_Life Sciences": -0.3053512693168727,
+    "EducationField_Marketing": -0.044848072394741666,
+    "EducationField_Medical": -0.20357888960908319,
+    "EducationField_Other": -0.09779987019596242,
+    "EducationField_Technical Degree": 0.16624925025032586,
+    "JobRole_Human Resources": 0.33897244988082104,
+    "JobRole_Laboratory Technician": 0.4875704192889197,
+    "JobRole_Manager": -0.05070662701915889,
+    "JobRole_Manufacturing Director": 0.12595087560044865,
+    "JobRole_Research Director": -0.2734029918467556,
+    "JobRole_Research Scientist": 0.15490974873205382,
+    "JobRole_Sales Executive": 0.43362046854517916,
+    "JobRole_Sales Representative": 0.44773204930525556,
+    "MaritalStatus_Married": 0.28701119679721726,
+    "MaritalStatus_Single": 0.571926370978054,
+    "Satisfaction_Score": -0.32741891328745637,
+    "Tenure_Ratio": -0.48381156054403146,
+    "Income_vs_Role_Median": -0.30679591945783724
+  },
+  "model_intercept": -0.9166345546897411
+}

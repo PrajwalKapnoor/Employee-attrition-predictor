@@ -1,0 +1,130 @@
+{
+  "tier_summary": [
+    {
+      "Risk_Tier": "High Risk",
+      "Employees": 347,
+      "Avg_Attrition_Prob": 0.79,
+      "Actual_Leavers": 166,
+      "Avg_Replacement_Cost": 28467.27,
+      "Total_At_Stake": 9878142.0
+    },
+    {
+      "Risk_Tier": "Low Risk",
+      "Employees": 816,
+      "Avg_Attrition_Prob": 0.14,
+      "Actual_Leavers": 25,
+      "Avg_Replacement_Cost": 45516.72,
+      "Total_At_Stake": 37141644.0
+    },
+    {
+      "Risk_Tier": "Medium Risk",
+      "Employees": 307,
+      "Avg_Attrition_Prob": 0.47,
+      "Actual_Leavers": 46,
+      "Avg_Replacement_Cost": 33667.97,
+      "Total_At_Stake": 10336068.0
+    }
+  ],
+  "top_10_highest_risk": [
+    {
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "MonthlyIncome": 2340,
+      "YearsAtCompany": 1,
+      "OverTime": "Yes",
+      "Attrition_Probability": 0.996,
+      "Risk_Tier": "High Risk",
+      "Replacement_Cost_Est": 14040.0
+    },
+    {
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "MonthlyIncome": 2174,
+      "YearsAtCompany": 3,
+      "OverTime": "Yes",
+      "Attrition_Probability": 0.993,
+      "Risk_Tier": "High Risk",
+      "Replacement_Cost_Est": 13044.0
+    },
+    {
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "MonthlyIncome": 3172,
+      "YearsAtCompany": 0,
+      "OverTime": "Yes",
+      "Attrition_Probability": 0.992,
+      "Risk_Tier": "High Risk",
+      "Replacement_Cost_Est": 19032.0
+    },
+    {
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "MonthlyIncome": 1118,
+      "YearsAtCompany": 1,
+      "OverTime": "Yes",
+      "Attrition_Probability": 0.991,
+      "Risk_Tier": "High Risk",
+      "Replacement_Cost_Est": 6708.0
+    },
+    {
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "MonthlyIncome": 1878,
+      "YearsAtCompany": 0,
+      "OverTime": "Yes",
+      "Attrition_Probability": 0.989,
+      "Risk_Tier": "High Risk",
+      "Replacement_Cost_Est": 11268.0
+    },
+    {
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "MonthlyIncome": 2121,
+      "YearsAtCompany": 1,
+      "OverTime": "Yes",
+      "Attrition_Probability": 0.985,
+      "Risk_Tier": "High Risk",
+      "Replacement_Cost_Est": 12726.0
+    },
+    {
+      "JobRole": "Sales Executive",
+      "Department": "Sales",
+      "MonthlyIncome": 13758,
+      "YearsAtCompany": 21,
+      "OverTime": "Yes",
+      "Attrition_Probability": 0.98,
+      "Risk_Tier": "High Risk",
+      "Replacement_Cost_Est": 82548.0
+    },
+    {
+      "JobRole": "Sales Executive",
+      "Department": "Sales",
+      "MonthlyIncome": 5765,
+      "YearsAtCompany": 5,
+      "OverTime": "No",
+      "Attrition_Probability": 0.98,
+      "Risk_Tier": "High Risk",
+      "Replacement_Cost_Est": 34590.0
+    },
+    {
+      "JobRole": "Research Scientist",
+      "Department": "Research & Development",
+      "MonthlyIncome": 2313,
+      "YearsAtCompany": 2,
+      "OverTime": "Yes",
+      "Attrition_Probability": 0.98,
+      "Risk_Tier": "High Risk",
+      "Replacement_Cost_Est": 13878.0
+    },
+    {
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "MonthlyIncome": 1675,
+      "YearsAtCompany": 0,
+      "OverTime": "Yes",
+      "Attrition_Probability": 0.98,
+      "Risk_Tier": "High Risk",
+      "Replacement_Cost_Est": 10050.0
+    }
+  ]
+}

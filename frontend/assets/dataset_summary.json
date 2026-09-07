@@ -1,0 +1,65 @@
+{
+  "raw_shape": [
+    1470,
+    35
+  ],
+  "shape_after_cleaning": [
+    1470,
+    31
+  ],
+  "missing_values_total": 0,
+  "constant_cols_dropped": {
+    "EmployeeCount": {
+      "type": "constant",
+      "value": 1
+    },
+    "StandardHours": {
+      "type": "constant",
+      "value": 80
+    },
+    "Over18": {
+      "type": "constant",
+      "value": "Y"
+    },
+    "EmployeeNumber": {
+      "type": "unique_id",
+      "n_unique": 1470
+    }
+  },
+  "attrition_counts": {
+    "No": 1233,
+    "Yes": 237
+  },
+  "attrition_rate_pct": 16.12,
+  "cv_metrics": {
+    "roc_auc": {
+      "mean": 0.8274918712609903,
+      "std": 0.023164009402413786
+    },
+    "precision": {
+      "mean": 0.37196010209914643,
+      "std": 0.017650240104858436
+    },
+    "recall": {
+      "mean": 0.7046985815602838,
+      "std": 0.03494122624183552
+    },
+    "f1": {
+      "mean": 0.4863490421912712,
+      "std": 0.016081641210502453
+    }
+  },
+  "roc_auc_full_fit": 0.874,
+  "optimal_threshold": 0.4,
+  "default_threshold_cost": 2731231.14,
+  "optimal_threshold_cost": 2295534.75,
+  "cost_savings": 435696.4,
+  "cost_savings_pct": 16.0,
+  "confusion_matrix": {
+    "tn": 863,
+    "fp": 370,
+    "fn": 28,
+    "tp": 209
+  },
+  "avg_monthly_income": 6502.93
+}

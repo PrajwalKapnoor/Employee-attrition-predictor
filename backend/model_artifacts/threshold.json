@@ -1,0 +1,6 @@
+{
+  "optimal_threshold": 0.4,
+  "default_threshold": 0.5,
+  "cost_false_negative_months": 6.0,
+  "cost_false_positive_months": 0.5
+}
