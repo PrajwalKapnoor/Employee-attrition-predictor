@@ -10,6 +10,12 @@ frontend/assets/metrics_figures.json, dataset_summary.json, and
 risk_table.json.
 """
 
+import sys
+from pathlib import Path
+
+# See pages/1_Predict.py for why this is here.
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+
 import pandas as pd
 import streamlit as st
 

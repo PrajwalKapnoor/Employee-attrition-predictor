@@ -10,6 +10,14 @@ displays what the API returns. That separation is the whole point of
 having a backend.
 """
 
+import sys
+from pathlib import Path
+
+# Streamlit Cloud sometimes runs pages/*.py without the frontend/ directory
+# on sys.path (works locally because `streamlit run app.py` adds it
+# automatically). This makes `from utils....` resolve reliably either way.
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+
 import streamlit as st
 
 from utils.api_client import get_prediction

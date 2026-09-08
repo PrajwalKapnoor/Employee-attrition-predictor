@@ -35,8 +35,17 @@ def load_asset(filename: str) -> dict:
 
 
 def render_figure(fig_dict: dict, key: str | None = None):
-    """Rebuilds a Plotly figure from its saved JSON dict and renders it."""
+    """Rebuilds a Plotly figure from its saved JSON dict and renders it.
+
+    The saved dict deliberately has no embedded theme (see
+    scripts/export_artifacts.py's fig_to_dict for why) — so the dark theme
+    is re-applied here, by name, using whatever Plotly version is actually
+    installed. This keeps charts visually consistent without ever
+    depending on Plotly's internal template schema staying identical
+    across versions.
+    """
     fig = go.Figure(fig_dict)
+    fig.update_layout(template="plotly_dark")
     st.plotly_chart(fig, use_container_width=True, key=key)
 
 

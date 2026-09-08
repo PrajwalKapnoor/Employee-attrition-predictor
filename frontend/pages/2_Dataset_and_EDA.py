@@ -7,6 +7,12 @@ This page never touches the raw CSV or recomputes a single statistic;
 it only loads JSON and renders it.
 """
 
+import sys
+from pathlib import Path
+
+# See pages/1_Predict.py for why this is here.
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+
 import streamlit as st
 
 from utils.styling import inject_base_css, load_asset, render_figure
