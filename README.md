@@ -84,10 +84,3 @@ python scripts/export_artifacts.py
 This overwrites `backend/model_artifacts/*` and `frontend/assets/*`. Restart
 both servers afterward.
 
-## Deployment (when you're ready)
-
-- **Backend** → Render / Railway (free tier). Start command:
-  `uvicorn main:app --host 0.0.0.0 --port $PORT`
-- **Frontend** → Streamlit Community Cloud. Set `BACKEND_URL` in
-  `frontend/.streamlit/secrets.toml` (or as a Streamlit Cloud secret) to
-  your deployed backend's URL.
