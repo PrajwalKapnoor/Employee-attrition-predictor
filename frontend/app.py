@@ -31,8 +31,13 @@ st.markdown(
 )
 
 health = check_backend_health()
-if health:
+if health and "optimal_threshold" in health:
     st.success(f"Prediction API is live — optimal decision threshold: {health['optimal_threshold']:.2f}")
+elif health:
+    st.warning(
+        "Prediction API responded, but with an unexpected format. "
+        "Double-check BACKEND_URL points at the right deployed backend."
+    )
 else:
     st.warning(
         "Prediction API is unreachable right now. The Overview, Dataset & EDA, "
@@ -98,6 +103,3 @@ with nav_cols[1]:
     st.page_link("pages/2_Dataset_and_EDA.py", label="📈 Dataset & EDA", use_container_width=True)
 with nav_cols[2]:
     st.page_link("pages/3_Model_and_Business_Metrics.py", label="💰 Model & Business Metrics", use_container_width=True)
-
-
-# run : C:/Users/Prajwal/anaconda3/python.exe -m streamlit run app.py
