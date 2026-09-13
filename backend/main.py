@@ -25,7 +25,6 @@ app = FastAPI(
     version="1.0.0",
 )
 
-# Allow the Streamlit frontend (a different origin/port) to call this API.
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
