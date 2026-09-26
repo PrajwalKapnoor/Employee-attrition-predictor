@@ -1,16 +1,4 @@
-"""
-schemas.py
-==========
-Pydantic models = the "contract" of the API.
-
-`EmployeeInput`  -> what the frontend form must send (one employee's raw data,
-                    exactly as it appears in the original CSV columns).
-`PredictionResponse` -> what the backend sends back.
-
-Using `Literal[...]` for categorical fields means FastAPI will REJECT a
-request automatically (with a clear 422 error) if, say, "Department" is
-misspelled — we don't have to write that validation ourselves.
-"""
+# schemas.py
 
 from typing import Literal
 
